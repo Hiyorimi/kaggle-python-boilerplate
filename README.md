@@ -5,31 +5,31 @@ Kaggle python boilerplate to start with empty main.ipynb file
 
 Python and Git installation is assumed.
 
-1. Pip installation:
+Pip installation:
 ```wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py```
 
-[https://pip.pypa.io/en/stable/installing/](Pip documentation)
+[Pip documentation](https://pip.pypa.io/en/stable/installing/)
 
-2. Installing virtualenv:
+Installing virtualenv:
 ```[sudo] pip install virtualenv
 # or
 [sudo] pip install https://github.com/pypa/virtualenv/tarball/develop```
 
-[https://virtualenv.pypa.io](Virtualenv documentation)
+[Virtualenv documentation](https://virtualenv.pypa.io)
 
-3. Virtualenvwrapper installation:
+Virtualenvwrapper installation:
 ```pip install virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh
 # You can add previous line directly to your ~/.bashrc or ~/.bash_profile```
 
-[http://virtualenvwrapper.readthedocs.io/en/latest/](Virtualenvwrapper documentation)
+[Virtualenvwrapper documentation](http://virtualenvwrapper.readthedocs.io/en/latest/)
 
-4. Creating virtualenv
+Creating virtualenv
 
 ```mkvirtualenv ds```
 
-5. Cloning the repo
+Cloning the repo
 ```git clone https://github.com/Hiyorimi/kaggle-python-boilerplate
 cd kaggle-python-boilerplate
 bash start.sh```
