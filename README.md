@@ -6,20 +6,26 @@ Kaggle python boilerplate to start with empty main.ipynb file
 Python and Git installation is assumed.
 
 Pip installation:
-```wget https://bootstrap.pypa.io/get-pip.py
+
+```
+wget https://bootstrap.pypa.io/get-pip.py
 python get-pip.py```
 
 [Pip documentation](https://pip.pypa.io/en/stable/installing/)
 
 Installing virtualenv:
-```[sudo] pip install virtualenv
+
+```
+[sudo] pip install virtualenv
 # or
 [sudo] pip install https://github.com/pypa/virtualenv/tarball/develop```
 
 [Virtualenv documentation](https://virtualenv.pypa.io)
 
 Virtualenvwrapper installation:
-```pip install virtualenvwrapper
+
+```
+pip install virtualenvwrapper
 source /usr/local/bin/virtualenvwrapper.sh
 # You can add previous line directly to your ~/.bashrc or ~/.bash_profile```
 
@@ -27,10 +33,13 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 Creating virtualenv
 
-```mkvirtualenv ds```
+```
+mkvirtualenv ds```
 
-Cloning the repo
-```git clone https://github.com/Hiyorimi/kaggle-python-boilerplate
+Cloning the repo:
+
+```
+git clone https://github.com/Hiyorimi/kaggle-python-boilerplate
 cd kaggle-python-boilerplate
 bash start.sh```
 
@@ -38,7 +47,8 @@ bash start.sh```
 
 Just use `bash start.sh` or 
 
-```cd ~/Path/To/Kaggle/Folder/kaggle-python-boilerplate/notebooks
+```
+cd ~/Path/To/Kaggle/Folder/kaggle-python-boilerplate/notebooks
 workon ds
-jupyter notebook``
+jupyter notebook```
 
