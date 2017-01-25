@@ -5,7 +5,7 @@ Kaggle python boilerplate to start with empty main.ipynb file
 
 Python and Git are asumed to be installed.
 
-Pip installation:
+**Pip installation:**
 
 ```
 wget https://bootstrap.pypa.io/get-pip.py
@@ -14,7 +14,7 @@ python get-pip.py
 
 [Pip documentation](https://pip.pypa.io/en/stable/installing/)
 
-Installing virtualenv:
+**Installing virtualenv:**
 
 ```
 [sudo] pip install virtualenv
@@ -24,7 +24,7 @@ Installing virtualenv:
 
 [Virtualenv documentation](https://virtualenv.pypa.io)
 
-Virtualenvwrapper installation:
+**Virtualenvwrapper installation:**
 
 ```
 pip install virtualenvwrapper
@@ -34,13 +34,32 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 [Virtualenvwrapper documentation](http://virtualenvwrapper.readthedocs.io/en/latest/)
 
-Creating virtualenv
+**Jupyter installation:**
+
+`jupyter` requires python development libs and gcc to build ZMQ modules.
+
+*Centos:*
+```
+sudo yum install python-devel gcc
+# Note: You may want to install version specific libs (e.g., `python3-devel`)
+```
+*Ubuntu:*
+```
+sudo sudo apt-get install python2.7-dev build-essential
+```
+
+```
+# run after installing dependencies described above
+pip install jupyter
+```
+
+**Creating virtualenv:**
 
 ```
 mkvirtualenv ds
 ```
 
-Cloning the repo:
+**Cloning the repo:**
 
 ```
 git clone https://github.com/Hiyorimi/kaggle-python-boilerplate
