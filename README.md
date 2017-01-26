@@ -46,6 +46,9 @@ Cloning the repo:
 git clone https://github.com/Hiyorimi/kaggle-python-boilerplate
 cd kaggle-python-boilerplate
 bash start.sh
+# if jupyter installation (as part of start.sh) failed on Mac OS X El Capitan, try this:
+pip2.7 install jupyter
+# and re-run start.sh
 ```
 
 ## Usage 
