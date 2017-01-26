@@ -28,6 +28,9 @@ python get-pip.py
 
 ```
 pip install virtualenvwrapper
+# or (for Mac OS X El Capitan)
+pip install virtualenvwrapper --ignore-installed six
+
 source /usr/local/bin/virtualenvwrapper.sh
 # You can add previous line directly to your ~/.bashrc or ~/.bash_profile
 ```
